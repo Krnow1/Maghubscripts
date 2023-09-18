@@ -1,0 +1,90 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "MagHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "locks ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "locks"
+})
+
+Tab:AddButton({
+	Name = "green camlock",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/KtUxZPB1"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "camlock",
+	Callback = function()
+      		print("button pressed")
+
+      loadstring(game:HttpGet("https://pastebin.com/raw/J6NMARNw"))();
+      
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "nyula",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "green dot",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://pastebin.com/raw/bpR5PFtJ"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "evans cam",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://pastebin.com/raw/DfevLfv3"))();
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "hood customs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "imperialw",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://pastebin.com/raw/THWWbqqE"))();
+  	end    
+})
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "q tool",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "q tool",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://pastebin.com/raw/khusvK1A"))();
+  	end    
+})
+
+
